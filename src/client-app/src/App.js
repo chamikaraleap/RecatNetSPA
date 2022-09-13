@@ -7,7 +7,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <BrowserRouter basename="/myapp/">
+                <BrowserRouter>
                     <Routes>
                         <Route exact path="/" element={<RouteHome />} />
                         <Route exact path="/route-1" element={<Route1 />} />
