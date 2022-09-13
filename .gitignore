@@ -5,3 +5,4 @@ src/ReactAPI/obj/*
 src/client-app/build/*
 
 src/client-app/node_modules/*
+publish/*
